@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Algo Trading Platform - AV</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            'primary': '#0D1117',
+            'secondary': '#161B22',
+            'border-color': '#30363D',
+            'accent': '#58A6FF',
+            'accent-hover': '#79B8FF',
+            'positive': '#238636',
+            'negative': '#DA3633',
+            'text-primary': '#C9D1D9',
+            'text-secondary': '#8B949E',
+          },
+        }
+      }
+    }
+    </script>
+<script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.1.0/",
+    "react": "https://esm.sh/react@^19.1.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.1.0/",
+    "lucide-react": "https://esm.sh/lucide-react@^0.525.0",
+    "recharts": "https://esm.sh/recharts@^3.1.0",
+    "react-router-dom": "https://esm.sh/react-router-dom@^7.7.0",
+    "express": "https://esm.sh/express@^5.1.0",
+    "cors": "https://esm.sh/cors@^2.8.5",
+    "axios": "https://esm.sh/axios@^1.11.0",
+    "dotenv": "https://esm.sh/dotenv@^17.2.0",
+    "path": "https://esm.sh/path@^0.12.7",
+    "url": "https://esm.sh/url@^0.11.4",
+    "@google/genai": "https://esm.sh/@google/genai@^0.15.0",
+    "uuid": "https://esm.sh/uuid@^10.0.0",
+    "yahoo-finance2": "https://esm.sh/yahoo-finance2@^2.13.3"
+  }
+}
+</script>
+</head>
+<body class="bg-primary text-text-primary">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+</body>
+</html>
